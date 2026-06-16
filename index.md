@@ -1,59 +1,58 @@
 ---
-
 layout: splash
 title: "Thomas"
 
 header:
-overlay_image: /assets/images/banner.jpg
-overlay_filter: 0.4
-caption: "Software Developer & Student"
+  overlay_image: /assets/images/banner.jpg
+  overlay_filter: 0.4
+  caption: "Software Developer & Student"
 
----
 excerpt: >
-Building games, software, and learning new technologies.
-
---------------------------------------------------------
+  Building games, software, and learning new technologies.
 
 ## About Me
 
-Hi, I'm Thomas, a software development student passionate about programming, game development, and creating interactive experiences.
+Hi! I'm Thomas, a software development student with a passion for programming, game development, and creating interactive experiences.
 
-I'm currently expanding my skills through personal projects and studies, with interests in software engineering, game design, and cybersecurity.
+I enjoy building projects that challenge my skills, exploring new technologies, and improving my knowledge through hands-on development.
 
-![Competencies](/assets/images/logos.png){: .align-center }
+My current interests include:
+
+- Game development
+- Software engineering
+- Web development
+- Learning new technologies
 
 ---
 
-## Featured Projects
+feature_row:
+  - image_path: /assets/images/game1.png
+    alt: "Game 1"
+    title: "Game 1"
+    excerpt: "A short description of Game 1."
+    url: "/projects/game1/"
+    btn_label: "View Project"
 
-<div class="portfolio-grid">
+  - image_path: /assets/images/game2.png
+    alt: "Game 2"
+    title: "Game 2"
+    excerpt: "A short description of Game 2."
+    url: "/projects/game2/"
+    btn_label: "View Project"
 
-<a href="/projects/game1/" class="portfolio-card">
-  <img src="/assets/images/game1.png" alt="Game 1">
-  <div class="portfolio-overlay">
-    <h3>Game 1</h3>
-  </div>
-</a>
+  - image_path: /assets/images/game3.png
+    alt: "Game 3"
+    title: "Game 3"
+    excerpt: "A short description of Game 3."
+    url: "/projects/game3/"
+    btn_label: "View Project"
 
-<a href="/projects/game2/" class="portfolio-card">
-  <img src="/assets/images/game2.png" alt="Game 2">
-  <div class="portfolio-overlay">
-    <h3>Game 2</h3>
-  </div>
-</a>
+  - image_path: /assets/images/game4.png
+    alt: "Game 4"
+    title: "Game 4"
+    excerpt: "A short description of Game 4."
+    url: "/projects/game4/"
+    btn_label: "View Project"
+---
 
-<a href="/projects/game3/" class="portfolio-card">
-  <img src="/assets/images/game3.png" alt="Game 3">
-  <div class="portfolio-overlay">
-    <h3>Game 3</h3>
-  </div>
-</a>
-
-<a href="/projects/game4/" class="portfolio-card">
-  <img src="/assets/images/game4.png" alt="Game 4">
-  <div class="portfolio-overlay">
-    <h3>Game 4</h3>
-  </div>
-</a>
-
-</div>
+{% include feature_row %}
