@@ -10,6 +10,7 @@ caption: "Software Developer & Student"
 
 excerpt: >
 Building games, software, and learning new technologies.
+---
 --------------------------------------------------------
 
 ## About Me
