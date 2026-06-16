@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Game 1"
-permalink: /projects/game1/
+permalink: /projects/agarart/
 
 header:
   overlay_image: /assets/images/game1-header.jpg
