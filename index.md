@@ -1,34 +1,57 @@
 ---
+
 layout: splash
 title: "Thomas"
+
 header:
-  overlay_image: /assets/images/banner.jpg
-  overlay_filter: 0.4
-  caption: "Software Developer & Student"
+overlay_image: /assets/images/banner.jpg
+overlay_filter: 0.4
+caption: "Software Developer & Student"
 
 excerpt: >
-  Building games, software, and learning new technologies.
+Building games, software, and learning new technologies.
+--------------------------------------------------------
 
-feature_row:
-  - image_path: /assets/images/game1.png
-    alt: "Game 1"
-    title: "Game 1"
-    url: "/projects/game1/"
+## About Me
 
-  - image_path: /assets/images/game2.png
-    alt: "Game 2"
-    title: "Game 2"
-    url: "/projects/game2/"
+Hi, I'm Thomas, a software development student passionate about programming, game development, and creating interactive experiences.
 
-  - image_path: /assets/images/game3.png
-    alt: "Game 3"
-    title: "Game 3"
-    url: "/projects/game3/"
+I'm currently expanding my skills through personal projects and studies, with interests in software engineering, game design, and cybersecurity.
 
-  - image_path: /assets/images/game4.png
-    alt: "Game 4"
-    title: "Game 4"
-    url: "/projects/game4/"
+![Competencies](/assets/images/logos.png){: .align-center }
+
 ---
 
-{% include feature_row %}
+## Featured Projects
+
+<div class="portfolio-grid">
+
+<a href="/projects/game1/" class="portfolio-card">
+  <img src="/assets/images/game1.png" alt="Game 1">
+  <div class="portfolio-overlay">
+    <h3>Game 1</h3>
+  </div>
+</a>
+
+<a href="/projects/game2/" class="portfolio-card">
+  <img src="/assets/images/game2.png" alt="Game 2">
+  <div class="portfolio-overlay">
+    <h3>Game 2</h3>
+  </div>
+</a>
+
+<a href="/projects/game3/" class="portfolio-card">
+  <img src="/assets/images/game3.png" alt="Game 3">
+  <div class="portfolio-overlay">
+    <h3>Game 3</h3>
+  </div>
+</a>
+
+<a href="/projects/game4/" class="portfolio-card">
+  <img src="/assets/images/game4.png" alt="Game 4">
+  <div class="portfolio-overlay">
+    <h3>Game 4</h3>
+  </div>
+</a>
+
+</div>
