@@ -44,6 +44,11 @@ a:hover {
   text-align: center;
 }
 
+/* ensure centering utility works everywhere */
+.text-center {
+  text-align: center !important;
+}
+
 .page__content p,
 .page__content ul {
   max-width: 750px;
@@ -54,14 +59,21 @@ a:hover {
 
 /* ================================
    FEATURE ROW (PROJECT CARDS)
+   2x2 GRID OVERRIDE
 ================================ */
 
+/* override Minimal Mistakes flex layout */
 .feature__wrapper {
   margin-top: 2rem;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
 }
 
 /* individual card */
 .feature__item {
+  width: 100% !important;
   border-radius: 18px;
   overflow: hidden;
   background: #181825;
@@ -135,6 +147,10 @@ a:hover {
 ================================ */
 
 @media (max-width: 768px) {
+  .feature__wrapper {
+    grid-template-columns: 1fr;
+  }
+
   .feature__item {
     margin-bottom: 1.5rem;
   }
