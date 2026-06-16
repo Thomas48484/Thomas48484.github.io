@@ -45,16 +45,23 @@
   max-width: 100% !important;
 }
 
-/* optional: make text less cramped */
-.page__content p,
-.page__content ul,
-.page__content h2,
-.page__content h3 {
-  max-width: 900px;
-  margin-left: auto;
-  margin-right: auto;
+.page__content {
+  max-width: 1400px;
+  margin: 0 auto;
+  text-align: left;
 }
 
+/* remove fake centering constraint */
+.page__content p,
+.page__content ul {
+  max-width: none;
+}
+
+/* headings can stay centered if you want */
+.page__content h2,
+.page__content h3 {
+  text-align: center;
+}
 /* make video and embeds full width */
 .video-container iframe {
   width: 100%;
