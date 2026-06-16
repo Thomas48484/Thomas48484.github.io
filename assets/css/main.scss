@@ -23,45 +23,32 @@
   overflow: hidden;
 }
 
-/* mobile */
-@media (max-width: 768px) {
-  .feature__wrapper {
-    grid-template-columns: 1fr !important;
-  }
-}
-
 /* ================================
-   WIDER CONTENT LAYOUT (PROJECT PAGES)
+   WIDER CONTENT LAYOUT (FIXED)
 ================================ */
 
-/* expand main content container */
 .page {
-  max-width: 1920px !important;
-  margin: 0 auto;
-}
-
-/* override default reading width */
-.page__content {
-  max-width: 100% !important;
-}
-
-.page__content {
   max-width: 1400px;
   margin: 0 auto;
+}
+
+.page__content {
+  max-width: none;
   text-align: left;
 }
 
-/* remove fake centering constraint */
+/* only constrain text lightly if needed */
 .page__content p,
 .page__content ul {
   max-width: none;
 }
 
-/* headings can stay centered if you want */
+/* optional centered headings */
 .page__content h2,
 .page__content h3 {
   text-align: center;
 }
+
 /* make video and embeds full width */
 .video-container iframe {
   width: 100%;
