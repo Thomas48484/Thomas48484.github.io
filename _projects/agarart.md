@@ -1,12 +1,12 @@
 ---
 layout: single
-title: "Game 1"
+title: "Agar.Art"
 permalink: /projects/agarart/
 
 header:
-  overlay_image: /assets/images/game1-header.jpg
+  overlay_image: /assets/images/game1.png
   overlay_filter: 0.4
-  caption: "Game 1 - Unity Project"
+  caption: "Agar.Art - Unity Project"
 ---
 
 # Overview
