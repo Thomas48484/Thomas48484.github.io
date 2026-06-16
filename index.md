@@ -12,31 +12,27 @@ excerpt: >
 
 feature_row:
   - image_path: /assets/images/game1.png
-    alt: "Game 1"
-    title: "Game 1"
-    excerpt: "A short description of Game 1."
-    url: "/projects/game1/"
+    alt: "Agar.Art"
+    title: "Agar.Art"
+    url: "/projects/agarart/"
     btn_label: "View Project"
 
   - image_path: /assets/images/game2.png
-    alt: "Game 2"
-    title: "Game 2"
-    excerpt: "A short description of Game 2."
-    url: "/projects/game2/"
+    alt: "Foreign Perspectives"
+    title: "Foreign Perspectives"
+    url: "/projects/foreignperspectives/"
     btn_label: "View Project"
 
   - image_path: /assets/images/game3.png
-    alt: "Game 3"
-    title: "Game 3"
-    excerpt: "A short description of Game 3."
-    url: "/projects/game3/"
+    alt: "Object recognition program"
+    title: "Object recognition program"
+    url: "/projects/objectrecognition/"
     btn_label: "View Project"
 
   - image_path: /assets/images/game4.png
-    alt: "Game 4"
-    title: "Game 4"
-    excerpt: "A short description of Game 4."
-    url: "/projects/game4/"
+    alt: "Comic book website"
+    title: "Comic book website"
+    url: "/projects/comicbook/"
     btn_label: "View Project"
 ---
 
@@ -48,6 +44,7 @@ Hi! I'm Thomas, a software development student with a passion for programming, g
 I enjoy building projects that challenge my skills, exploring new technologies, and improving my knowledge through hands-on development.
 
 ### Technologies & Skills
+{: .text-center}
 
 ![My Skills](/assets/images/logos.png){: .align-center}
 
