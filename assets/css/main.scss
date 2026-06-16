@@ -1,6 +1,3 @@
----
----
-
 @import "minimal-mistakes";
 
 /* ================================
@@ -74,4 +71,21 @@
   .feature__wrapper {
     grid-template-columns: 1fr !important;
   }
+}
+
+/* ================================
+   FIX MINIMAL MISTAKES CONTAINER WIDTH
+================================ */
+
+.container,
+.page__container,
+.layout--single .page__container {
+  max-width: 100% !important;
+}
+
+.page__content-inner {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  max-width: 1200px !important;
+  width: 100% !important;
 }
