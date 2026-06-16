@@ -1,82 +1,68 @@
 ---
-
-layout: splash
-title: "Your Name"
-header:
-overlay_color: "#1e1e2e"
-overlay_filter: 0.4
-image: /assets/images/banner.jpg
-excerpt: "Developer • Student • Game Creator"
----
----------------------------------------------
-
-# Welcome
-
-![Profile Picture](/assets/images/profile.png){: .align-center}
-
-Hi! I'm **Your Name**, a passionate software developer and game creator currently studying **[Current Study Program]**.
-
-I enjoy building games, web applications, and experimenting with new technologies. My goal is to create engaging digital experiences while continuously improving my technical skills.
-
+layout: single
+title: Home
+permalink: /
+classes: wide
 ---
 
-## Competencies
+<div class="hero">
 
-![Competencies](/assets/images/logos.png)
+<img src="/assets/images/profile.png" class="avatar">
 
-Technologies and tools I work with:
+<h1>Your Name</h1>
 
-* C#
-* Unity
-* Python
-* Java
-* HTML/CSS
-* Git & GitHub
-* SQL
-* Linux
+<p>Software Developer • Student • Game Creator</p>
 
----
+</div>
 
-## Featured Projects & Games
+<section id="portfolio">
 
-<div class="feature__wrapper">
+<h2>Portfolio</h2>
 
-<div class="feature__item">
-<a href="/projects/project1/">
-<img src="/assets/images/project1.jpg">
-<h3>Project One</h3>
+<div class="portfolio-grid">
+
+<a href="/projects/game1/" class="portfolio-item">
+    <img src="/assets/images/game1.jpg">
+    <span>Game One</span>
 </a>
-</div>
 
-<div class="feature__item">
-<a href="/projects/project2/">
-<img src="/assets/images/project2.jpg">
-<h3>Project Two</h3>
+<a href="/projects/game2/" class="portfolio-item">
+    <img src="/assets/images/game2.jpg">
+    <span>Game Two</span>
 </a>
-</div>
 
-<div class="feature__item">
-<a href="/projects/project3/">
-<img src="/assets/images/project3.jpg">
-<h3>Project Three</h3>
+<a href="/projects/game3/" class="portfolio-item">
+    <img src="/assets/images/game3.jpg">
+    <span>Game Three</span>
 </a>
-</div>
 
-<div class="feature__item">
-<a href="/projects/project4/">
-<img src="/assets/images/project4.jpg">
-<h3>Project Four</h3>
+<a href="/projects/game4/" class="portfolio-item">
+    <img src="/assets/images/game4.jpg">
+    <span>Game Four</span>
 </a>
-</div>
 
 </div>
 
----
+</section>
 
-## Contact
+<section id="about">
 
-📧 Email: [your.email@example.com](mailto:your.email@example.com)
+<h2>About Me</h2>
 
-💼 GitHub: https://github.com/yourusername
+<p>
+Short introduction here...
+</p>
 
-🔗 LinkedIn: https://linkedin.com/in/yourprofile
+<img src="/assets/images/logos.png" width="600">
+
+</section>
+
+<section id="contact">
+
+<h2>Contact</h2>
+
+<p>Email</p>
+<p>GitHub</p>
+<p>LinkedIn</p>
+
+</section>
