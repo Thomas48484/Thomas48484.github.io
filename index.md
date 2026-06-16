@@ -31,7 +31,7 @@ feature_row:
 
   - image_path: /assets/images/game4.png
     alt: "Comic book website"
-    title: "Comic book website"
+    title: "RayTracer in Java"
     url: "/projects/comicbook/"
     btn_label: "View Project"
 ---
