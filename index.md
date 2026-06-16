@@ -8,9 +8,10 @@ overlay_image: /assets/images/banner.jpg
 overlay_filter: 0.4
 caption: "Software Developer & Student"
 
+---
 excerpt: >
 Building games, software, and learning new technologies.
----
+
 --------------------------------------------------------
 
 ## About Me
