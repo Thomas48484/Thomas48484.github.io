@@ -14,25 +14,25 @@ feature_row:
   - image_path: /assets/images/game1.png
     alt: "Agar.Art"
     title: "Agar.Art"
-    url: "/projects/agarart/"
+    url: "/agarart/"
     btn_label: "View Project"
 
   - image_path: /assets/images/game2.png
     alt: "Foreign Perspectives"
     title: "Foreign Perspectives"
-    url: "/projects/foreignperspectives/"
+    url: "/foreignperspectives/"
     btn_label: "View Project"
 
   - image_path: /assets/images/game3.png
     alt: "Object recognition program"
     title: "Object recognition program"
-    url: "/projects/objectrecognition/"
+    url: "/objectrecognition/"
     btn_label: "View Project"
 
   - image_path: /assets/images/game4.png
     alt: "Comic book website"
     title: "RayTracer in Java"
-    url: "/projects/raytracer/"
+    url: "/raytracer/"
     btn_label: "View Project"
 ---
 
