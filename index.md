@@ -40,18 +40,16 @@ feature_row:
     btn_label: "View Project"
 ---
 
+
 ## About Me
 
 Hi! I'm Thomas, a software development student with a passion for programming, game development, and creating interactive experiences.
 
 I enjoy building projects that challenge my skills, exploring new technologies, and improving my knowledge through hands-on development.
 
-### My Interests
+### Technologies & Skills
 
-- 🎮 Game development
-- 💻 Software engineering
-- 🌐 Web development
-- 🚀 Learning new technologies
+![My Skills](/assets/images/logos.png){: .align-center}
 
 ---
 
