@@ -58,20 +58,23 @@ a:hover {
 }
 
 /* ================================
-   FEATURE ROW (FORCED 2x2 GRID)
+   FEATURE ROW (TRUE 2x2 FIX)
 ================================ */
 
+/* reset MM flex system completely */
 .feature__wrapper {
-  margin-top: 2rem;
-
-  /* override MM flex */
-  display: grid !important;
-  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
-  gap: 2rem;
-  align-items: stretch;
+  display: block !important;
 }
 
-/* kill default MM sizing rules */
+/* each row becomes a 2-column grid */
+.feature__wrapper .feature__item--row {
+  display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* force items to behave normally */
 .feature__item {
   width: 100% !important;
   float: none !important;
