@@ -5,3 +5,5 @@ plugins:
 minimal_mistakes_skin: "catppuccin_mocha"
 custom_css:
   - /assets/css/custom.css
+classes:
+  - wide
