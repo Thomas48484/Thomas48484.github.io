@@ -14,7 +14,7 @@ feature_row:
   - image_path: /assets/images/game1.png
     alt: "Agar.Art"
     title: "Agar.Art"
-    url: "/agarart/"
+    url: "/projects/agarart/"
     btn_label: "View Project"
 
   - image_path: /assets/images/game2.png
