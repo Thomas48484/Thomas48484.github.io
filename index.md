@@ -47,7 +47,7 @@ Hi! I'm Thomas, a software development student with a passion for programming, g
 
 I enjoy building projects that challenge my skills, exploring new technologies, and improving my knowledge through hands-on development.
 
-### Technologies & Skills{: .align-center}
+### Technologies & Skills
 
 ![My Skills](/assets/images/logos.png){: .align-center}
 
