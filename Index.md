@@ -7,6 +7,7 @@ overlay_color: "#1e1e2e"
 overlay_filter: 0.4
 image: /assets/images/banner.jpg
 excerpt: "Developer • Student • Game Creator"
+---
 ---------------------------------------------
 
 # Welcome
