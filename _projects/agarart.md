@@ -18,7 +18,7 @@ This project is a short description of the game. Explain what it is, what inspir
 ## 🎥 Gameplay Video
 
 <div class="video-container">
-<iframe width="100%" height="400"
+<iframe width="100%" height="800"
 src="https://www.youtube.com/embed/VIDEO_ID"
 title="Game Video"
 frameborder="0"
