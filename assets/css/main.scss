@@ -56,4 +56,25 @@
   border-radius: 12px;
 }
 
+/* ================================
+   REMOVE MINIMAL MISTAKES WIDTH LIMIT
+================================ */
+
+.page__inner-wrap {
+  max-width: none !important;
+  width: 100% !important;
+}
+
+/* also ensure main container expands */
+.page {
+  max-width: 1400px !important;
+  margin: 0 auto;
+}
+
+/* safety override */
+.page__content {
+  max-width: none !important;
+  width: 100%;
+}
+
 
