@@ -9,7 +9,7 @@
 
 .feature__wrapper {
   display: grid !important;
-  grid-template-columns: repeat(2, 1fr) !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
   gap: 2rem !important;
 }
 
@@ -24,57 +24,60 @@
 }
 
 /* ================================
-   WIDER CONTENT LAYOUT (FIXED)
+   FULL WIDTH LAYOUT FIX (REAL FIX)
 ================================ */
 
-.page {
-  max-width: 1400px;
-  margin: 0 auto;
+.page,
+.page__inner-wrap,
+.initial-content {
+  max-width: none !important;
+  width: 100% !important;
 }
 
+/* page content layout */
 .page__content {
-  max-width: none;
+  max-width: 1400px;
+  margin: 0 auto;
   text-align: left;
 }
 
-/* only constrain text lightly if needed */
+/* text behavior */
 .page__content p,
 .page__content ul {
   max-width: none;
 }
 
-/* optional centered headings */
+/* headings */
 .page__content h2,
 .page__content h3 {
   text-align: center;
 }
 
-/* make video and embeds full width */
+/* ================================
+   RESPONSIVE VIDEO FIX (IMPORTANT)
+================================ */
+
+.video-container {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 12px;
+  overflow: hidden;
+  margin: 2rem 0;
+}
+
 .video-container iframe {
   width: 100%;
-  height: 200px;
-  border-radius: 12px;
+  height: 100%;
+  border: 0;
 }
 
 /* ================================
-   REMOVE MINIMAL MISTAKES WIDTH LIMIT
+   MOBILE FEATURE GRID
 ================================ */
 
-.page__inner-wrap {
-  max-width: none !important;
-  width: 100% !important;
+@media (max-width: 768px) {
+  .feature__wrapper {
+    grid-template-columns: 1fr !important;
+  }
 }
-
-/* also ensure main container expands */
-.page {
-  max-width: 1400px !important;
-  margin: 0 auto;
-}
-
-/* safety override */
-.page__content {
-  max-width: none !important;
-  width: 100%;
-}
-
-
