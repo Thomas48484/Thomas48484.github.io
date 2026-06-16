@@ -10,23 +10,6 @@ header:
 excerpt: >
   Building games, software, and learning new technologies.
 
----
-
-## About Me
-
-Hi! I'm Thomas, a software development student with a passion for programming, game development, and creating interactive experiences.
-
-I enjoy building projects that challenge my skills, exploring new technologies, and improving my knowledge through hands-on development.
-
-My current interests include:
-
-- Game development
-- Software engineering
-- Web development
-- Learning new technologies
-
----
-
 feature_row:
   - image_path: /assets/images/game1.png
     alt: "Game 1"
@@ -55,6 +38,23 @@ feature_row:
     excerpt: "A short description of Game 4."
     url: "/projects/game4/"
     btn_label: "View Project"
+---
 
+## About Me
+
+Hi! I'm Thomas, a software development student with a passion for programming, game development, and creating interactive experiences.
+
+I enjoy building projects that challenge my skills, exploring new technologies, and improving my knowledge through hands-on development.
+
+### My Interests
+
+- 🎮 Game development
+- 💻 Software engineering
+- 🌐 Web development
+- 🚀 Learning new technologies
+
+---
+
+## Featured Projects
 
 {% include feature_row %}
