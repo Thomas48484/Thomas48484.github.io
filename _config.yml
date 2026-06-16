@@ -7,3 +7,7 @@ custom_css:
   - /assets/css/custom.css
 classes:
   - wide
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
