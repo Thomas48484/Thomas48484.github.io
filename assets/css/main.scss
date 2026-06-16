@@ -24,33 +24,27 @@
 }
 
 /* ================================
-   FULL WIDTH LAYOUT FIX (REAL FIX)
+   GLOBAL FULL WIDTH FIX (ALL LAYOUTS)
 ================================ */
 
 .page,
 .page__inner-wrap,
-.initial-content {
+.initial-content,
+.page__content {
   max-width: none !important;
   width: 100% !important;
 }
 
-/* page content layout */
-.page__content {
+/* actual readable content width */
+.page__content-inner {
   max-width: 1400px;
   margin: 0 auto;
-  text-align: left;
 }
 
-/* text behavior */
-.page__content p,
-.page__content ul {
-  max-width: none;
-}
-
-/* headings */
-.page__content h2,
-.page__content h3 {
-  text-align: center;
+/* fallback for layouts that don't use inner wrapper */
+.page__content {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 /* ================================
