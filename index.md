@@ -10,6 +10,8 @@ header:
 excerpt: >
   Building games, software, and learning new technologies.
 
+---
+
 ## About Me
 
 Hi! I'm Thomas, a software development student with a passion for programming, game development, and creating interactive experiences.
@@ -53,6 +55,6 @@ feature_row:
     excerpt: "A short description of Game 4."
     url: "/projects/game4/"
     btn_label: "View Project"
----
+
 
 {% include feature_row %}
