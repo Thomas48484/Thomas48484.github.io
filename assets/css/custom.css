@@ -58,27 +58,23 @@ a:hover {
 }
 
 /* ================================
-   FEATURE ROW (TRUE 2x2 FIX)
+   FEATURE ROW (HARD OVERRIDE 2x2)
 ================================ */
 
-/* reset MM flex system completely */
+/* kill theme flex completely */
 .feature__wrapper {
-  display: block !important;
-}
-
-/* each row becomes a 2-column grid */
-.feature__wrapper .feature__item--row {
   display: grid !important;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 2rem;
-  margin-bottom: 2rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  gap: 2rem !important;
 }
 
-/* force items to behave normally */
-.feature__item {
+/* force each card to stop behaving like flex item */
+.feature__wrapper .feature__item {
   width: 100% !important;
+  max-width: 100% !important;
+  flex: unset !important;
   float: none !important;
-  flex: none !important;
+  display: block !important;
 
   border-radius: 18px;
   overflow: hidden;
@@ -88,19 +84,19 @@ a:hover {
 }
 
 /* hover */
-.feature__item:hover {
+.feature__wrapper .feature__item:hover {
   transform: translateY(-6px);
   box-shadow: 0 18px 40px rgba(0, 0, 0, 0.5);
 }
 
 /* image fix */
-.feature__item img {
+.feature__wrapper .feature__item img {
   width: 100%;
   display: block;
   transition: transform 0.35s ease;
 }
 
-.feature__item:hover img {
+.feature__wrapper .feature__item:hover img {
   transform: scale(1.06);
 }
 
